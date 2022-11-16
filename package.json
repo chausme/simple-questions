@@ -1,0 +1,25 @@
+{
+  "name": "simple-questions",
+  "description": "Simple Questions project based on [Vanilla Javacript Projects](https://www.vanillajavascriptprojects.com/)",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chausme/simple-questions.git"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "author": "chausme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chausme/simple-questions/issues"
+  },
+  "homepage": "https://github.com/chausme/simple-questions#readme"
+}
