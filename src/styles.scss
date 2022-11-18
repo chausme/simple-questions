@@ -1,0 +1,12 @@
+.question-title {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.question-text {
+    border-top: 2px var(--bs-orange) solid;
+    padding-top: 20px;
+}
