@@ -9,4 +9,24 @@
 .question-text {
     border-top: 2px var(--bs-orange) solid;
     padding-top: 20px;
+    display: none;
+}
+
+.question {
+    background-color: var(--bs-white);
+    &.collapsed {
+        .minus-icon {
+            display: block;
+        }
+        .plus-icon {
+            display: none;
+        }
+        .question-text {
+            display: block;
+        }
+    }
+}
+
+.minus-icon {
+    display: none;
 }
